@@ -348,6 +348,7 @@ align-items: center;
 
 .main__testimonials,
 .main__pricing,
+.main__faq,
 .main__values {
   display: flex;
   padding: 96px 0;
@@ -657,4 +658,25 @@ font-size: 16px;
   .fa-arrow-left,
   .fa-arrow-right {
 font-weight: bolder;
+  }
+
+  .main__faq--1 {
+    max-width: 576px;
+    margin: 0 auto;
+  }
+  .main__faq--h5 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+
+  .main__faq--h2 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .main__faq--p1 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 16px;
   }
