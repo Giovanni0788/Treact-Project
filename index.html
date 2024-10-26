@@ -14,112 +14,122 @@
 </head>
 
 <body>
-  <header>
+  <!--Nav-->
+  <section id="landing">
+    <nav>
     <div class="row">
-      <div class="nav">
-        <div class="nav__treact">
-          <img class="header__logo" src="./assets/Header Logo.svg" alt="" />
-          <span class="header__treact">Treact</span>
-        </div>
-        <div class="header__links">
-          <span class="header__link">About</span>
-          <span class="header__link">Blog</span>
-          <span class="header__link">Pricing</span>
-          <span class="header__link">Contact Us</span>
-
-          <span class="header__login">Login</span>
-          <button class="header__signup">Sign Up</button>
-        </div>
+      <div class="nav__container">
+        <a href="#">
+		<div class="logo__wrapper">
+		 <img class="logo" src="./assets/Header Logo.svg" alt="">
+		 <h1 class="logo__text">Treact</h1>
+		</div>
+		<ul class="nav__links">
+		<li>
+		<a href="" class="nav__link link__hover-effect">About</a>
+		</li>
+				<li>
+		<a href="" class="nav__link link__hover-effect">Blog</a>
+		</li>
+				<li>
+		<a href="" class="nav__link link__hover-effect">Pricing</a>
+		</li>
+				<li>
+		<a href="" class="nav__link link__hover-effect">Contact Us</a>
+		</li>
+				<li>
+		<a href="" class="nav__link nav__link--margin link__hover-effect">Login</a>
+		</li>
+						<li>
+		<a href="" class="nav__link nav__link--button ">Sign Up</a>
+		</li>
+		</ul>
       </div>
     </div>
+  </nav>
+  <!--Header-->
+  <header class="header__container">
+    <div class="header__description">
+      <h1 class="header__description--title">Beautiful React Templates <span class="purple">for you.</span></h1>
+    <p class="header__description--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+    <form action="">
+      <input type="text" placeholder="Your E-mail Address">
+      <div class="header__btn--wrapper">
+        <button class="btn header__btn">Get Started</button>
+      </div>
+    </form>
+    <p class="header__description--para-2">Our TRUSTED Customers</p>
+    <img class="header__description--img" src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
+  </div>
+  <figure class="header__img--wrapper">
+    <img class="header__img" src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
+  </figure>
   </header>
+  </section>
   <main>
-    <div class="main__templates">
-      <div class="main__templates--left">
-        <p class="main__templates--left__1">
-          Beautiful React Templates <span class="purple">for you.</span>
-        </p>
-        <p class="main__templates--left__2">
-          Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages
-          and components.
-        </p>
-        <div class="main__templates--left__Email">
-          <input class="email" type="email" placeholder="Your E-mail Address">
-          <button class="main__getstarted">Get Started</button>
-        </div>
-        <div class="main__templates--left__3">
-          <p class="trusted">OUR TRUSTED CUSTOMERS</p>
-          <img class="logostrip" src="./assets/customers-logo-strip.png" alt="">
-        </div>
-      </div>
-      <div class="main__templates--right">
-        <img class="main__templates--img" src="./assets/design-illustration.svg" alt="">
-      </div>
-    </div>
-    </div>
-    <div class="main__features">
-      <p class="main__features--1">FEATURES</p>
+    <!--Features-->
+    <div class="container">
+      <div class="features__description">
+      <p class="main__features--1 purple">FEATURES</p>
       <p class="main__features--2">We have Amazing <span class="purple">Service.</span></p>
       <p class="main__features--3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua.</p>
-      <div class="main__features--4">
-        <p>.</p>
       </div>
-      <div class="main__features--5">
-        <div class="main__features--5__box">
-          <img class="main__features--5__img" src="./assets/shield-icon.svg" alt="">
-          <div class="main__features--5__texts">
-            <span class="main__features--5__title">Secure</span>
-            <p class="main__features--5__text">We strictly only deal with vendors that provide top notch security.</p>
+      <div class="services">
+        <div class="service">
+          <img class="service__img" src="./assets/shield-icon.svg" alt="">
+          <div class="service__description">
+            <span class="service__description--title">Secure</span>
+            <p class="service__description--para">We strictly only deal with vendors that provide top notch security.</p>
           </div>
         </div>
-        <div class="main__features--5__box">
-          <img class="main__features--5__img" src="./assets/support-icon.svg" alt="">
-          <div class="main__features--5__texts">
-            <span class="main__features--5__title">24/7 Support</span>
-            <p class="main__features--5__text">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
+        <div class="service">
+          <img class="service__img" src="./assets/support-icon.svg" alt="">
+          <div class="service__description">
+            <span class="service__description--title">24/7 Support</span>
+            <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
             </p>
           </div>
         </div>
-        <div class="main__features--5__box">
-          <img class="main__features--5__img" src="./assets/customize-icon.svg" alt="">
-          <div class="main__features--5__texts">
-            <span class="main__features--5__title">Customizable</span>
-            <p class="main__features--5__text">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
+        <div class="service">
+          <img class="service__img" src="./assets/customize-icon.svg" alt="">
+          <div class="service__description">
+            <span class="service__description--title">Customizable</span>
+            <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
             </p>
           </div>
         </div>
-      </div>
-      <div class="main__features--5">
-        <div class="main__features--5__box">
-          <img class="main__features--5__img" src="./assets/reliable-icon.svg" alt="">
-          <div class="main__features--5__texts">
-            <span class="main__features--5__title">Reliable</span>
-            <p class="main__features--5__text">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
+        <div class="service">
+          <img class="service__img" src="./assets/reliable-icon.svg" alt="">
+          <div class="service__description">
+            <span class="service__description--title">Reliable</span>
+            <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
             </p>
           </div>
         </div>
-        <div class="main__features--5__box">
-          <img class="main__features--5__img" src="./assets/fast-icon.svg" alt="">
-          <div class="main__features--5__texts">
-            <span class="main__features--5__title">Fast</span>
-            <p class="main__features--5__text">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
+        <div class="service">
+          <img class="service__img" src="./assets/fast-icon.svg" alt="">
+          <div class="service__description">
+            <span class="service__description--title">Fast</span>
+            <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
             </p>
           </div>
         </div>
-        <div class="main__features--5__box">
-          <img class="main__features--5__img" src="./assets/simple-icon.svg" alt="">
-          <div class="main__features--5__texts">
-            <span class="main__features--5__title">Easy</span>
-            <p class="main__features--5__text">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
+        <div class="service">
+          <img class="service__img" src="./assets/simple-icon.svg" alt="">
+          <div class="service__description">
+            <span class="service__description--title">Easy</span>
+            <p class="service__description--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="main__quality">
+    <!--Quality-->
+    <div class="container">
+      <div class="main__quality">
       <div class="main__quality--left">
-        <p class="main__quality--left__P1">Quality Work</p>
+        <p class="main__quality--left__P1 purple">QUALITY WORK</p>
         <h2 class="main__quality--left__H2">Designed & Developed by <span class="purple">Professionals.</span></h2>
         <p class="main__quality--left__P2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -130,7 +140,9 @@
         <img class="main__quality--right__I" src="./assets/hero-screenshot-1.png" alt="">
       </div>
     </div>
-    <div class="main__steps">
+  </div>
+    <!--Steps-->
+    <div class="container">
       <div class="main__steps--left">
         <img class="main__steps--left__img" src="./assets/hero-screenshot-2.png" alt="">
       </div>
@@ -164,7 +176,8 @@
         </div>
       </div>
     </div>
-    <div class="main__values">
+    <!--Values-->
+    <div class="container">
       <div class="main__values--left">
         <h5 class="main__steps--right__1">VALUES</h5>
         <h2 class="main__steps--right__2">We Always Abide by Our<span class="GetStarted"> Principles.</span></h2>
@@ -214,7 +227,7 @@
       </div>
     </div>
     <!--Pricing-->
-    <div class="main__pricing">
+    <div class="container">
       <div class="main__pricing--1">
         <h5 class="main__pricing--h5">PRICING</h5>
         <h2 class="main__pricing--h2">Reasonable &amp; Flexible <span class="purple">Plans.</span></h2>
@@ -279,7 +292,7 @@
     </div>
 
     <!--Testimonials-->
-    <div class="main__testimonials">
+    <div class="container">
       <div class="main__testimonials--1">
         <img class="main__testimonials--img" src="./assets/love-illustration.svg">
       </div>
@@ -319,8 +332,7 @@
       </div>
     </div>
     <!--FAQs-->
-    <div>
-        <div class="main__faq">
+        <div class="container">
           <div class="">
             <div class="">
               <div class="main__faq--1">
@@ -328,50 +340,50 @@
                 <h2 class="main__faq--h2 blue">You have <span class="purple">Questions ?</span></h2>
                 <p class="main__faq--p1 gray">And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-              <dl class="">
-                <div class="">
-                  <dt class=""><span class="">Are all the templates easily customizable ?<i class="fa-solid fa-chevron-down"></i></span></dt>
-                  <dd class="">
+              <dl class="main__faq--2">
+                <div class="main__faq--3">
+                  <dt class="main__faq--dt"><span class="">Are all the templates easily customizable ?<i class="fa-solid fa-chevron-down"></i></span></dt>
+                  <dd class="main__faq--dd">
                     Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
                 </div>
-                <div class="">
-                  <dt class="">
+                <div class="main__faq--3">
+                  <dt class="main__faq--dt">
                     <span class="">How long do you usually support an standalone template for ?<i class="fa-solid fa-chevron-down"></i></span>
                     </dt>
-                  <dd class="">
+                  <dd class="main__faq--dd">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.</dd>
                 </div>
-                <div class="">
-                  <dt class=""><span class="">What kind of payment methods do you accept ?<i class="fa-solid fa-chevron-down"></i></span>
+                <div class="main__faq--3">
+                  <dt class="main__faq--dt"><span class="">What kind of payment methods do you accept ?<i class="fa-solid fa-chevron-down"></i></span>
                     </dt>
-                  <dd class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  <dd class="main__faq--dd"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.</dd>
                 </div>
-                <div class="">
-                  <dt class=""><span class="">Is there a subscribption service to get the latest templates ?<i class="fa-solid fa-chevron-down"></i></span>
+                <div class="main__faq--3">
+                  <dt class="main__faq--dt"><span class="">Is there a subscribption service to get the latest templates ?<i class="fa-solid fa-chevron-down"></i></span>
                   </dt>
-                  <dd class="">
+                  <dd class="main__faq--dd">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.</dd>
                 </div>
-                <div class="">
-                  <dt class=""><span class="">Are the templates compatible with the React ?<i class="fa-solid fa-chevron-down"></i></span>
+                <div class="main__faq--3">
+                  <dt class="main__faq--dt"><span class="">Are the templates compatible with the React ?<i class="fa-solid fa-chevron-down"></i></span>
                     </dt>
-                  <dd class="">
+                  <dd class="main__faq--dd">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.</dd>
                 </div>
-                <div class="">
-                  <dt class=""><span class="">Do you really support Internet Explorer 11 ?<i class="fa-solid fa-chevron-down"></i></span>
+                <div class="main__faq--3">
+                  <dt class="main__faq--dt"><span class="">Do you really support Internet Explorer 11 ?<i class="fa-solid fa-chevron-down"></i></span>
                     </dt>
-                  <dd class="">
+                  <dd class="main__faq--dd">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.</dd>
@@ -380,8 +392,6 @@
             </div>
           </div>
         </div>
-      
-    </div>
     <!--Developers-->
     <div>
       <section style="transform: none;">
