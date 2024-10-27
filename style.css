@@ -293,6 +293,8 @@ max-width: 500px;
 .main__quality {
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .main__quality--left {
