@@ -90,6 +90,7 @@ height: 40px;
 
 .nav__link:hover {
 color: #6415ff;
+transition: all 400ms ease;
 }
 
 .nav__link--button {
@@ -102,6 +103,7 @@ color: #6415ff;
 .nav__link--button:hover {
   background-color: #4108b4;
   color: white;
+  transition: all 400ms ease;
 }
 
 .link__hover-effect:after {
@@ -110,11 +112,13 @@ position: absolute;
 background-color: #6415ff;
 height: 2px;
 bottom: -3px;
+transition: all 400ms ease;
 }
 
 .link__hover-effect:hover:after {
   width: 100%;
   left: 0;
+  transition: all 400ms ease;
 }
   /* Header */
 
@@ -187,6 +191,7 @@ border-color: transparent;
 .btn:hover {
   background-color: #4108b4;
   cursor: pointer;
+  transition: all 400ms ease;
 }
 
 .header__btn--wrapper {
@@ -335,6 +340,7 @@ font-size: 16px;
 .main__quality--left__B:hover {
   background-color: #4108b4;
   cursor: pointer;
+  transition: all 400ms ease;
 }
 
 .main__quality--right__I {
@@ -487,6 +493,7 @@ color: #243e63;
 .main__values--left__B:hover {
   background-color: #4108b4;
   cursor: pointer;
+  transition: all 400ms ease;
 }
 
 .main__values--right {
@@ -833,6 +840,11 @@ color: white;
 border-radius: 70px;
   }
 
+  .developers__get:hover {
+    background-color: #bd3d3d;
+    transition: all 400ms ease;
+  }
+
   .developers__contact {
     padding: 20px 40px;
     font-size: 16px;
@@ -841,6 +853,12 @@ border-radius: 70px;
 border-style: solid;
 border-width: 1px;
 border-color: #7c8ba1;
+  }
+
+  .developers__contact:hover {
+    background-color: white;
+    transition: all 400ms ease;
+    color: #7e329c;
   }
 
 /* Footer */
